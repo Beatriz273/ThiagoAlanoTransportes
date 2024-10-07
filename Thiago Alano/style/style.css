@@ -54,11 +54,6 @@ body {
     gap: 5rem;
     padding: 3% 13%;
 }
-/* .main_contact_us {
-
-    display: flex;
-    flex-direction: column;
-} */
 
 .main_section_one {
     display: flex;
@@ -125,107 +120,5 @@ body {
     font-size: 17px ;
     border-bottom: 2px solid var(--cor_primaria);
 }
-.header_menu_others{
-    display: flex;
-    gap: 40px;
-    margin-top: -5%;
-}
-.header_title_others{
-    font-family: var(--font_judson);
-    color: var(--cor_primaria);
-    font-size: 35px;
-    margin-top: -5%;
-}
-.about_title {  
-    font-family: var(--font_poppins);
-    font-size: 30px;
-    font-weight: bold;
-    color: var(--cor_terciaria);
-    padding: 0% 20%;
-    text-align: right;
-}
 
-.about_body {
-    font-family: var(--font_judson);
-    color: var(--cor_terciaria);
-    font-size: 16px;
-    font-style: normal;
-    padding: 1% 18.5%; ;
-    text-align: right;
-    word-wrap: normal;
-}
-.about_box {
-    width: 100%;
-    align-items: right;
-    
-}
-.contact_green_box {
-    width: 100vw;
-    height: 25vh;
-    background-color: var(--cor_primaria);
-    position: absolute; bottom: 0px
-}
 
-.contact_box {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 0% 14% 1%;
-    gap: 30px;
-}
-.contact_box_title{
-    font-family: var(--font_judson);
-    font-size: 36px;
-    font-weight: normal;
-    font-style: italic;
-    color: var(--cor_primaria);
-    text-align:left;
-    width: 40%;
-    
-}
-.contact_box_body{
-    font: var(--font_dm_sans);
-    size: 20;
-    text-align: left;
-    width: 35%;
-}
-.services_title{
-    font: var(--font_poppins);
-    font-style: bold;
-    font-size: 36px;
-    color: var(--cor_primaria);
-    font-weight: bold;
-    text-align: center;
-
-}
-.services_title_body{
-    font: var(--font_dm_sans);
-    font-size: 18px;
-    font-style: normal;
-    text-align: center;
-    padding: 3%;
-}
-.services_grey_box{
-    columns: 3;
-    align-items: center;
-    width: 100vw;
-    height: 50vh;
-    color: #1a4319;
-}
-
-.main_img_contact-us {
-    text-align: center;
-    font-size: 18px;
-    padding: 1% 10% 1% 1%;
-    font-family: var(--font_dm_sans);
-    border: 1px solid var(--cor_primaria);
-    background-color: #1a4319;
-    color: #f6f6f6;
-    text-decoration: none;
-}
-
-.main_contact_us {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}

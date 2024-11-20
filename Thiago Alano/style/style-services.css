@@ -20,34 +20,6 @@ body {
     box-sizing: border-box;
 }
 
-.header {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    padding: 2% 10%;
-    unicode-bidi: isolate;
-    
-}
-
-.header_title {
-    font-family: var(--font_judson);
-    color: var(--cor_primaria);
-    font-size: 35px;
-    text-align: center;
-}
-.header_menu_header{
-    display: flex;
-    gap: 2rem;
-}
-
-.header_menu_header_link {
-    font-family: var(--font_poppins);
-    text-decoration: none;
-    color: var(--cor_terciaria);
-    padding: 0%;
-    /* margin-bottom: 5px solid var(--cor_secundaria); */
-}   
-
 .main_section {
     display: flex;
     flex-direction: column;
@@ -81,14 +53,16 @@ body {
 }
 
 .service_card {
+    position: relative;
     background-color: white;
     border-bottom: 2px solid var(--cor_primaria);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    padding: 20px;
+    padding: 1.2rem;
     text-align: center;
     width: 100%;
     max-width: 250px;
+    transition: transform 0.3s ease;
 }
 
 .service_icon {
@@ -108,6 +82,30 @@ body {
     font-family: var(--font_poppins);
     font-size: 0.9rem;
     color: var(--cor_terciaria);
+}
+
+.service_button {
+    display: none; /* Esconde o botão por padrão */
+    margin-top: 1rem;
+    padding: 5%;
+    border: none;
+    background-color: #1a4319;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0; /* Começa invisível */
+    transform: translateY(10px); /* Aparece ligeiramente abaixo */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Adiciona a transição */
+}
+
+.service_card:hover .service_button {
+    display: inline-block; 
+    opacity: 1; /* Torna o botão visível */
+    transform: translateY(0); /* Move o botão para sua posição original */
+}
+
+.service_button:hover {
+    background-color: #145214; 
 }
 
 

@@ -27,3 +27,15 @@ window.onload = function() {
     loadContentSequentially(files, 'additional-content');
 };
 
+
+// Função para abrir o formulário (modal)
+function abrirFormulario() {
+    var modal = document.getElementById("formularioModal");
+    modal.style.display = "block"; // Torna o modal visível
+}
+
+// Função para fechar o formulário (modal)
+function fecharFormulario() {
+    var modal = document.getElementById("formularioModal");
+    modal.style.display = "none"; // Esconde o modal
+}

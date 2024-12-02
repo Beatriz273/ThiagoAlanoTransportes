@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --cor_primaria:#1a4319;
+    --cor_secundaria:#f6f6f6;
+    --cor_terciaria: black;
+    --font_judson: "Judson", serif;
+    --font_poppins:"Poppins", sans-serif;
+    --font_dm_sans:"DM Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor_secundaria);
+    box-sizing: border-box;
+}
+
+.main_contact_us {
+    display: flex;
+    gap: 5rem;
+    padding: 1% 13% 0 5%;;
+    margin: 2% 0% 6%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 60%;
+
+}
+.contact_box_title{
+    text-align: center;
+    font-family: var(--font_judson);
+    font-size: 2.1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: var(--cor_primaria);
+    width: 70%;
+
+    
+}
+.contact_box_body{
+    font-family: var(--font_poppins);
+    font-size: 1.1rem;
+    text-align: center;
+    width: 60%;
+    font-weight:350;
+    align-items: center;
+}
+
+.contact-us_a {
+    font-size: 0.85rem;
+    padding: 3% 3%; 
+    font-family: var(--font_dm_sans);
+    border: 1px solid var(--cor_primaria);
+    border-radius: 10px;
+    background-color: #1a4319;
+    color: #f6f6f6;
+    text-decoration: none;
+    width: 40%; 
+    min-width: 2rem; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+    margin-top: 1rem; 
+}
+
+.contact-us_a-icon {
+    width: 10%;
+}
+
+.footer {
+    display: flex;
+    background-color: #1a4319;
+    justify-content: space-evenly;
+    padding: 3% 0% 3% 1%;
+    align-items: center;
+}
+
+.footer_article_paragraph { 
+    font-size: 1.3rem;
+    font-family: var(--font_judson);
+    font-weight: normal;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+

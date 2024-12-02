@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --cor_primaria:#1a4319;
+    --cor_secundaria:#f6f6f6;
+    --cor_terciaria: black;
+    --font_judson: "Judson", serif;
+    --font_poppins:"Poppins", sans-serif;
+    --font_dm_sans:"DM Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor_secundaria);
+    box-sizing: border-box;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3% 0;
+    gap: 2rem;
+}
+
+.main_section_title {
+    font-family: var(--font_judson);
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+}
+
+.main_section_services {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2rem;
+}
+
+.main_section_description {
+    font-family: var(--font_poppins);
+    font-size: 1rem;
+    color: var(--cor_terciaria);
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+.service_card {
+    position: relative;
+    background-color: white;
+    border-bottom: 2px solid var(--cor_primaria);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.service_icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.service_title {
+    font-family: var(--font_judson);
+    font-size: 1.2rem;
+    color: var(--cor_primaria);
+    margin-bottom: 0.5rem;
+}
+
+.service_description {
+    font-family: var(--font_poppins);
+    font-size: 0.9rem;
+    color: var(--cor_terciaria);
+}
+
+
+.service_card:hover {
+    background-color:#F5F5F5;
+    transform: translateY(0); /* Move o botão para sua posição original */
+}
+
+

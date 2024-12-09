@@ -87,7 +87,6 @@ body {
 
 .service_card:hover {
     background-color:#F5F5F5;
-    transform: translateY(0); /* Move o botão para sua posição original */
 }
 
 

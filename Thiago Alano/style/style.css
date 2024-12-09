@@ -9,6 +9,7 @@
     --font_poppins:"Poppins", sans-serif;
     --font_dm_sans:"DM Sans", sans-serif;
 }
+
 html {
     scroll-behavior: smooth; 
     scroll-padding-top: 80px; 
